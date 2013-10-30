@@ -16,8 +16,7 @@ import random
 # helper functions
 
 def number_to_name(number):
-    # fill in your code below
-    
+    # fill in your code below    
     # convert number to a name using if/elif/else
     # don't forget to return the result!
     if number==0:
@@ -35,7 +34,6 @@ def number_to_name(number):
     
 def name_to_number(name):
     # fill in your code below
-
     # convert name to number using if/elif/else
     # don't forget to return the result!
     if name == "rock":
@@ -53,17 +51,11 @@ def name_to_number(name):
 
 def rpsls(name): 
     # fill in your code below
-
     # convert name to player_number using name_to_number
-
     # compute random guess for comp_number using random.randrange()
-
     # compute difference of player_number and comp_number modulo five
-
     # use if/elif/else to determine winner
-
     # convert comp_number to name using number_to_name
-    
     # print results
     comp_number=random.randrange(0,5)
     player_number=name_to_number(name)
