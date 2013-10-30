@@ -2,9 +2,9 @@
 # Rohan Roy - 26th Oct 2013
 # http://www.codeskulptor.org/#user21_8l35S4ABbLRLzNf_0.py
 
-
 import random
 import simplegui
+
 # initialize global variables used in your code
 
 secret_number = 0
