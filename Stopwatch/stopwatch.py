@@ -1,5 +1,5 @@
 # Stopwatch: The Game
-# Rohan Roy - 29th Oct 2013
+# Rohan Roy - 30th Oct 2013
 # http://www.codeskulptor.org/#user22_aJ2B7XnzHeFpJeg.py
 
 import simplegui
