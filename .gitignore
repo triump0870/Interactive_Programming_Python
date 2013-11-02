@@ -34,7 +34,6 @@ nosetests.xml
 .project
 .pydevproject
 
-#public file
-github_rsa
+#public key file
 *.pub
 github
