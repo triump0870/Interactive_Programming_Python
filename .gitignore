@@ -37,3 +37,4 @@ nosetests.xml
 #public file
 github_rsa
 *.pub
+github
