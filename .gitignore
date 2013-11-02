@@ -26,7 +26,6 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
-
 # Translations
 *.mo
 
@@ -34,3 +33,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+#public file
+github_rsa
+*.pub
