@@ -1,7 +1,8 @@
 # Simple implementation of GalaxyInvanders game
 # Rohan Roy (India) - 3 Nov 2013
+# www.codeskulptor.org/#user23_fTVPDKIDhRdCfUp
 
-VER = "1.1.244"
+VER = "1.0"
 
 # "add various aliens"
 
