@@ -8,7 +8,7 @@ VER = "1.0"
 
 import simplegui, math, random, time
 
-#Global const
+# Global constants
 FIELD_WIDTH = 850
 FIELD_HEIGHT = 500
 TOP_MARGIN = 75
