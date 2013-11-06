@@ -62,20 +62,17 @@ def draw(c):
             ball_vel[1] =  ball_vel[1] * 1.1
             hit1 += 1
             ls += 1
-            
         else:
             score2 += 1
             spawn_ball(True)
             l.append(ls)
             ls = 0
-            
     elif ball_pos[0] + BALL_RADIUS > WIDTH - PAD_WIDTH:
         if ball_pos[1] >= paddle2_pos[1] - HALF_PAD_HEIGHT and ball_pos[1] <= paddle2_pos[1] + HALF_PAD_HEIGHT:
             ball_vel[0] = -ball_vel[0] * 1.1
             ball_vel[1] =  ball_vel[1] * 1.1
             hit2 += 1
             ls += 1
-            
         else:
             score1 += 1
             spawn_ball(False)
