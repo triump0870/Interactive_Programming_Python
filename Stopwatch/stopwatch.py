@@ -1,6 +1,6 @@
 # Stopwatch: The Game
 # Rohan Roy - 30th Oct 2013
-# http://www.codeskulptor.org/#user22_aJ2B7XnzHeFpJeg.py
+# http://www.codeskulptor.org/#user23_3ZEr6XFSuHrqRSj.py
 
 import simplegui
 
@@ -50,9 +50,11 @@ def reset_btn_handler():
     global tens_sec
     global score
     global attempt
+    global Is_timer
     score = 0
     attempt = 0
     tens_sec = 0
+    Is_timer = False
     format(tens_sec)
 
 # define event handler for timer with 0.1 sec interval
